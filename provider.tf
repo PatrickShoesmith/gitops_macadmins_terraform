@@ -4,7 +4,7 @@ terraform {
       source = "zentralopensource/zentral"
     }
   }
-  
+
   backend "http" {
     address        = "https://psumac24-iowa.zentral.cloud/api/terraform/backend/starter_kit/"
     lock_address   = "https://psumac24-iowa.zentral.cloud/api/terraform/backend/starter_kit/lock/"
